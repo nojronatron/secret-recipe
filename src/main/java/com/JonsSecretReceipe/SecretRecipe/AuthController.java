@@ -23,6 +23,6 @@ public class AuthController {
         // TODO: implement login verification and protect access to authorized users only
 
         // for now just return a simple page to verify paths work
-        return new RedirectView("protectedpage");
+        return new RedirectView("main");
     }
 }

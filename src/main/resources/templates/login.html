@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Login</title>
 </head>
 <body>
-
+    <h3>Login to continue</h3>
+    <form action="/login" method="post" id="loginform">
+        <label for="loginusername" name="loginusername">Enter you user name:</label>
+        <input type="text" id="loginusername" />
+        <label for="loginuserpassword" name="loginuserpassword">Enter your password:</label>
+        <input type="password" id="loginuserpassword" />
+        <button type="submit" value="login">Log in!</button>
+    </form>
 </body>
 </html>
