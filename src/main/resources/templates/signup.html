@@ -6,11 +6,11 @@
 </head>
 <body>
     <h3>Signup to be granted access to this site.</h3>
-    <form action="/signup" method="post">
-        <label for="username" name="username">Enter a user name:</label>
-        <input type="text" id="username" />
-        <label for="userpassword" name="userpassword">Enter a password:</label>
-        <input type="password" id="userpassword" />
+    <form action="/signup" method="POST">
+        <label for="username">Enter a user name:</label>
+        <input type="text" id="username" name="username" />
+        <label for="password">Enter a password:</label>
+        <input type="password" name="password" id="password" />
         <button type="submit" value="signup">Signup!</button>
     </form>
 </body>
