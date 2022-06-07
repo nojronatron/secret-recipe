@@ -21,5 +21,6 @@ The project includes Spring frameworks that includes a running Apache web server
 
 ## Project Effort
 
-Start Date and Time: 6-June-22 1500hrs
-End Date and Time: 
+Start Date and Time: 6-Jun-22 1500hrs
+End Date and Time: 6-Jun-22 1700hrs => Break for midterm project prep
+
